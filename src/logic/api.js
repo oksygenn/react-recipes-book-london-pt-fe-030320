@@ -1,4 +1,4 @@
-const API = "http://localhost:3100";
+const API = "https://recipes-app-backend.glitch.me";
 
 const getRecipes = async () => {
   const response = await fetch(`${API}/recipes`);
